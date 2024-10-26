@@ -1,0 +1,117 @@
+/* WEBPAGE STYLE */
+#topbar ul {
+    background-color: rgba(255, 255, 255, 0.3); 
+    width: 100%;
+}
+#topbar ul li {
+    display: inline;
+    text-decoration: none;
+    color: #333333; 
+    font-weight: bold;
+}
+#topbar ul li a {
+    text-decoration: none;
+    color: #333333;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.1); 
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+#topbar ul * :hover {
+    background-color: rgba(255, 255, 255, 0.5); 
+    color: #000000;
+}
+
+div.footer {
+    background-color: rgba(255, 255, 255, 0.3); 
+    color: #333333; 
+}
+
+.container {
+    align-self: center;
+    text-align: center;
+    color: #333333; 
+}
+
+.form {
+    border: 1px solid #cccccc; 
+    border-radius: 8px;      
+    padding: 15px;
+    margin-bottom: 20px;     
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    background-color: rgba(255, 255, 255, 0.8); 
+    color: #333333; 
+}
+
+html {
+    min-height: 100%;
+    margin: 0;
+}
+
+body { /* Estil adaptat pel fons */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    overflow: auto;
+    background: linear-gradient(315deg, rgba(207, 159, 255, 1) 3%, rgba(159, 207, 255, 1) 38%, rgba(255, 207, 159, 1) 68%, rgba(255, 159, 159, 1) 98%);
+    animation: gradient 30s ease infinite; 
+    background-size: 400% 400%;
+    background-attachment: fixed;
+    color: #333333; 
+}
+
+@keyframes gradient { /* Color animat de fons */
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.5); 
+    color: #333333; 
+    text-align: center;
+    width: 100%;
+}
+
+.totalprice {
+    border: 1px solid #cccccc; 
+    border-radius: 8px;      
+    padding: 15px;
+    margin-top: 45px;     
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.8); 
+    color: #333333; 
+}
+
+/* FLICKITY CAROUSEL */
+* {
+    box-sizing: border-box;
+}
+
+.carousel {
+    background: rgba(255, 255, 255, 0.3); 
+}
+
+.carousel img {
+    display: block;
+    height: 200px;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+    .carousel img {
+        height: 400px;
+    }
+}
+

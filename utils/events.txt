@@ -1,0 +1,8 @@
+id;category;name;price
+e1;c1;YSYSMO Show at Razzmatazz;25
+e2;c1;Duki Show at Palau St. Jordi;80
+e3;c2;Comedy Club;35
+e4;c3;Barça Matchday LaLiga;90
+e5;c3;Girona Matchday LaLiga;85
+e6;c2;Cruilla Comedy;25
+e7;c3;Carlos Alcaraz Roland Garros Matchday;90

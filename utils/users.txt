@@ -1,0 +1,11 @@
+username;password;role;name;surname
+user1;pass1;admin;name1;surname1
+user2;pass2;staff;name2;surname2
+user3;pass3;registered;name3;surname3
+user4;pass4;staff;name4;surname4
+user5;pass5;registered;name5;surname5
+user6;pass6;registered;name6;surname6
+cacara82;123;registered;Carlos;Carvajal
+userclasse;123;registered;Ca;CaRa
+aaa;aaa;registered;aaa;aaa
+123;123;registered;123;123
